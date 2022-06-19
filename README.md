@@ -6,7 +6,9 @@ reless Communication System with Encryption
 
 - Wireless Communication System with Encryption
   - About The Project
-  - Directory structure
+  - OPENCL Flow Directory structure
+  - Vitis_HLS Flow Directory structurei
+  - Results
   - [Usage](#Usage)
 
 
@@ -15,20 +17,23 @@ reless Communication System with Encryption
 
 Implementation a end-to-end Wireless Communication System with Encryption with HLS
 
-## Directory structure
-
-* **PATTERN/**
+## OPENCL Flow Directory structure
+* **OPENCL_0619_v3/PATTERN/**
   * Test Image Pattern
-* **hls/**
-  * HLS C++ source code
-* **other/**
-  * ...
+* **OPENCL_0619_v3/MIMO_AES_kernels/src**
+  * HLS C++ kernel source code
+* **OPENCL_0619_v3/MIMO_AES/src**
+  * HLS Host Program
 
+## Vitis_HLS Flow Directory structure
+* **AES_CHANNEL_KBEST_ver5/PATTERN/**
+  * Test Image Pattern
+* **AES_CHANNEL_KBEST_ver5/src**
+  * HLS C++ kernel source code & Host Program
 ## Usage 
-
 * **Block Diagram**
   ![image](./bd.png)
-* **Build the Project with Vitis_HLS**
+* **Build the Vitis_HLS Project with Vitis_HLS**
   * `make run CSIM=1 CSYNTH=1 COSIM=1`
 * **Running on U50**
   * Use Vitis OPENCL flow
@@ -37,12 +42,11 @@ Implementation a end-to-end Wireless Communication System with Encryption with H
 ## Results
 
 **With AES**
-![image](./.png)
-
+![image](./JPG_Result/AES/pic0_SNR6.jpg)
 
 
 **Without AES**
-![image](./.png)
+![image](./JPG_Result/noAES/pic0/jpg/pic0_SNR6.jpg)
 
 ## References
 
