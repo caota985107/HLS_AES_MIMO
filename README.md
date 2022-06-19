@@ -1,4 +1,4 @@
-reless Communication System with Encryption
+Wireless Communication System with Encryption
 
 ### Final Project Group 5
 
