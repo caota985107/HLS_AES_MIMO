@@ -1,4 +1,4 @@
-Wireless Communication System with Encryption
+# Wireless Communication System with Encryption
 
 ### Final Project Group 5
 
@@ -32,9 +32,11 @@ Implementation a end-to-end Wireless Communication System with Encryption with H
   * HLS C++ kernel source code & Host Program
 ## Usage 
 * **System Diagram**
-  ![image](./bd.png)
+
+![image](./bd.png)
 * **Host Program Architecture**
-  ![image](./host_program_arch.png)
+
+![image](./host_program_arch.png)
   
 * **Build the Vitis_HLS Project with Vitis_HLS**
   * `make run CSIM=1 CSYNTH=1 COSIM=1`
@@ -45,10 +47,12 @@ Implementation a end-to-end Wireless Communication System with Encryption with H
 ## Results
 
 **With AES**
+
 ![image](./JPG_Result/AES/pic0_SNR6.jpg)
 
 
 **Without AES**
+
 ![image](./JPG_Result/noAES/pic0/jpg/pic0_SNR6.jpg)
 
 ## References
