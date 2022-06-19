@@ -15,7 +15,7 @@
 
 Implementation a end-to-end Wireless Communication System with Encryption with HLS
 
-**Directory structure**
+## Directory structure
 
 * **PATTERN/**
   * Test Image Pattern
