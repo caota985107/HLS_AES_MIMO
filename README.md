@@ -31,8 +31,11 @@ Implementation a end-to-end Wireless Communication System with Encryption with H
 * **AES_CHANNEL_KBEST_ver5/src**
   * HLS C++ kernel source code & Host Program
 ## Usage 
-* **Block Diagram**
+* **System Diagram**
   ![image](./bd.png)
+* **Host Program Architecture**
+  ![image](./host_program_arch.png)
+  
 * **Build the Vitis_HLS Project with Vitis_HLS**
   * `make run CSIM=1 CSYNTH=1 COSIM=1`
 * **Running on U50**
