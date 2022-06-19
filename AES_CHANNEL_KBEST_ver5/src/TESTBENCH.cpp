@@ -19,9 +19,9 @@ FIXED_LEN SNR_IN = 1 / sqrt(2 * SNR);
 
 
 FILE *fp;
-fp = fopen("D:/NTHU/HLS/FINAL/ASE_CHANNEL_KBEST_ver5/PATTERN/RGB.txt", "r");
+fp = fopen("/home/willy/HLS_AES_MIMO/AES_CHANNEL_KBEST_ver5/PATTERN/RGB.txt", "r");
 fstream fo;
-fo.open("D:/NTHU/HLS/FINAL/ASE_CHANNEL_KBEST_ver5/PATTERN/RGB_output.txt", ios::out);
+fo.open("/home/willy/HLS_AES_MIMO/AES_CHANNEL_KBEST_ver5/PATTERN/RGB_output.txt", ios::out);
 
 int file_temp[32];
 //ap_uint<8> in_data[16];
