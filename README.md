@@ -4,9 +4,9 @@
 
 ## Table of Content
 
-- [Wireless Communication System with Encryption](#Wireless Communication System with Encryption)
-  - [About The Project](# About The Project)
-  - [Directory structure](# Directory structure)
+- Wireless Communication System with Encryption
+  - About The Project
+  - Directory structure
   - [Usage](#Usage)
 
 
