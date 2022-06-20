@@ -7,7 +7,7 @@
 - Wireless Communication System with Encryption
   - About The Project
   - OPENCL Flow Directory structure
-  - Vitis_HLS Flow Directory structurei
+  - Vitis_HLS Flow Directory structure
   - Results
   - [Usage](#Usage)
 
